@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://robinye.com
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: Coding
+subtitle: "Technology changes our life"
+description: "Robin Ye's Blog"
+keywords: Coding, Live Streaming, H264, WebRTC
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,12 +15,12 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Robin Ye
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: robinyeeh
+location: Shanghai, China
+email: heaven.robin@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -28,27 +28,27 @@ email: chumpma@gmail.com
 navs:
   -
     href: /
-    label: 首页
+    label: Home
 
   -
     href: /categories/
-    label: 分类
+    label: Categories
 
 #   -
-#     href: /archives/
-#     label: 归档
+#    href: /archives/
+#    label: Archives
 
   -
     href: /wiki/
-    label: 维基
+    label: Wiki
 
   -
     href: /links/
-    label: 链接
+    label: Links
 
   -
     href: /about/
-    label: 关于
+    label: About
 
 # ---------------- #
 #       RSS        #
@@ -81,32 +81,34 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: robinyeeh/srs-stream-stats
 
 # ---------------- #
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
 comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
+
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
+
 gitment:
-    owner: mzlogin
+    owner:
     repo: blog-comments
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id:
+        client_secret:
+
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: robinyeeh
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
-# 在使用其它评论组件时可点击显示 Disqus
+    clientID: 7c3718de885cbccc920c
+    clientSecret: 2f89dd289ba10432d5c284516878f9b851cb780d
+
 lazy_load_disqus : false
 
 # ---------------- #
@@ -122,4 +124,4 @@ simple_jekyll_search:
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id: UA-107857068-1

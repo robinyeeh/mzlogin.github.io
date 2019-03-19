@@ -1,26 +1,20 @@
 - name: 码志
   url: http://mazhuang.org
 
-- name: Connie 酱
-  url: https://connie99.github.io
+- name: SRS
+  url: https://github.com/ossrs/srs
 
-- name: 只宁静不致远
-  url: http://zxning.github.io
+- name: Nginx RTMP
+  url: https://github.com/arut/nginx-rtmp-module
 
-- name: Blog Something
-  url: http://chenxiaoyoyo.github.io
+- name: Caddy Google Quic
+  url: https://github.com/mholt/caddy
 
-- name: 日新亭
-  url: http://www.fengerzh.com/
+- name: 利用PowerDNS GeoIP版自建多节点
+  url: https://www.laobuluo.com/918.html
 
-- name: 叮咚购
-  url: http://www.ringwang.com/
+- name: Epoch & Unix Timestamp Conversion Tools
+  url: https://www.epochconverter.com/
 
-- name: wanandroid
-  url: http://www.wanandroid.com/
-
-- name: ZZY补完计划
-  url: https://zzycreate.github.io/
-
-- name: 村农
-  url: http://www.why-dong.com/
+- name: 在线正则表达式测试
+  url: http://tool.oschina.net/regex
